@@ -4,9 +4,12 @@
              xmlns:local="clr-namespace:NavigationForms"
              x:Class="NavigationForms.MainPage">
 
-    <StackLayout>
+    <StackLayout BackgroundColor="DarkGreen">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Button Text="Go Page 1" 
+                TextColor="White"
+                BackgroundColor="Black"
+                Clicked="Button_Clicked"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
     </StackLayout>
